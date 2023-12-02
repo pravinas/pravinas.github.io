@@ -2,7 +2,12 @@
 layout: homepage
 title: Rooms
 permalink: /rooms/
+category: rooms
 ---
+
+## About
+
+This is an art project I started on 29 November 2023. I'm not entirely sure what emotions I'm trying to express here. I'll accompany art posts with explanations as well.
 
 ## Inspirations
  - [Small Gods](http://www.smallgodseries.com/") by Lee Moyer and Seanan McGuire

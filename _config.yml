@@ -21,9 +21,7 @@
 title: PR4v1's Webbed Site
 email: pravi@bu.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Hiya! I'm Pravi, PR4v1, pravinas, RobotNerd, or whatever else you want to call me. 
-  I am a first year PhD student at Boston University. 
-  I hope that I make your day a little bit brighter, and a whole lot weirder. 
+  Thoughts and feelings from your friendly neighborhood robotic nerd.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: RobotNerd277
