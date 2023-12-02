@@ -3,6 +3,8 @@ layout: homepage
 title: Rooms
 permalink: /rooms/
 category: rooms
+whitelist_categories:
+  - rooms
 ---
 
 ## About
@@ -15,5 +17,3 @@ This is an art project I started on 29 November 2023. I'm not entirely sure what
  - [Hyperbolica](https://store.steampowered.com/app/1256230/Hyperbolica) and [Hyperrogue](https://store.steampowered.com/app/342610/HyperRogue)
  - [Draw A Box](https://drawabox.com/)
  - And last but not least, doodling in class
-
-## Latest Posts

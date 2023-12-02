@@ -1,12 +1,28 @@
 ---
 layout: base
 ---
-{{ content }}
+<h2>Latest Posts</h2>
+{% if page.whitelist_categories %}
+  <ul>
+    {% for post in site.posts %}
+      {% if page.whitelist_categories contains post.category %}
+        <li>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+{% else %}
+  <ul>
+    {% for post in site.posts %}
+      {% unless page.blacklist_categories contains post.category %}
+        <li>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+      {% endunless %}
+    {% endfor %}
+  </ul>
+{% endif %}
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
+
+{{ content }}
