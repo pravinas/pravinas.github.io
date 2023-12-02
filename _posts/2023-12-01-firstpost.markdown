@@ -2,7 +2,10 @@
 layout: post
 title:  "First Post!"
 date:   2023-11-30 20:48:17 -0500
-authors: pravi&, pravi, PR4v1
+authors:
+  - pravi&
+  - pravi
+  - PR4v1
 tags: introduction, journal
 ---
 
